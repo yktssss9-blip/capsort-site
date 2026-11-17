@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="alternate" hreflang="ja" href="../privacy.html">
+<title>Capsort Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1d1d1f; --bg:#fff; --muted:#6e6e73; --line:#d2d2d7; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#f5f5f7; --bg:#1c1c1e; --muted:#a1a1a6; --line:#3a3a3c; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.8 -apple-system, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+  p, li { margin:8px 0; }
+  .meta { color:var(--muted); font-size:.9rem; }
+  nav a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="./">Capsort</a> · <a href="../privacy.html" lang="ja" hreflang="ja">日本語</a></nav>
+<h1>Privacy Policy</h1>
+<p class="meta">Effective: October 23, 2026 / Last updated: November 17, 2026</p>
+
+<p>Capsort (“the App”) is an iOS app for sorting screenshots, and links received from the share sheet, into categories you create. This policy explains how the App handles information.</p>
+
+<h2>1. Information We Collect</h2>
+<p>The developer does not collect your personal information. The App does not send your data to any server operated by the developer.</p>
+<ul>
+  <li>There are no accounts or sign-ins.</li>
+  <li>The App uses no advertising, analytics, or tracking tools.</li>
+  <li>The App uses an external service (RevenueCat) to manage purchases. See “4. Communication with External Services.”</li>
+  <li>When you sort a link from the share sheet, the App contacts the linked website. See “4. Communication with External Services.”</li>
+  <li>The App contacts a public Apple service to check whether a newer version is available. See “4. Communication with External Services.”</li>
+</ul>
+
+<h2>2. Access to Your Photos Library</h2>
+<p>The App asks for access to your Photos library (read and write) to list your screenshots and sort them into categories.</p>
+<ul>
+  <li>Images are not copied into the App; the App refers to the images in your Photos library by their identifiers.</li>
+  <li>Your categories are reflected as albums inside a “Capsort” folder in the Photos app.</li>
+  <li>Your photos and images are never sent off your device.</li>
+</ul>
+
+<h2>3. Information Stored on Your Device</h2>
+<p>The following information is stored only on your device:</p>
+<ul>
+  <li>Category names, their order, and cover settings</li>
+  <li>Records of which images you placed in which categories</li>
+  <li>Information about links received from the share sheet (the link address, title, and a reduced-size thumbnail image), and records of how you sorted them</li>
+  <li>App settings (appearance, whether you have finished the introduction, and so on)</li>
+</ul>
+<p>To pass link information between the share sheet extension and the App, the App uses a shared storage area on your device (an App Group). This area is also on your device and is not sent anywhere.</p>
+<p>This information is erased when you delete the App. However, albums reflected in the Photos app, and the images in your Photos library, remain after the App is deleted.</p>
+
+<h2>4. Communication with External Services</h2>
+<h3>4-1. Purchase Management (RevenueCat)</h3>
+<p>The App uses services provided by RevenueCat, Inc. to manage the purchase and status of Capsort Pro (a one-time purchase). For this purpose, information about your purchase (purchase history and purchase status) and an anonymous identifier generated automatically by the App are sent to RevenueCat. No information that identifies you, such as your name or email address, is sent. This information is used to verify purchases and to provide App features (Capsort Pro). RevenueCat handles this information in accordance with its own privacy policy.</p>
+
+<h3>4-2. Fetching Links You Sort from the Share Sheet</h3>
+<p>You can share links (such as social media posts) to the App from another app’s share sheet and sort them. To show the link’s title and thumbnail image on the sorting screen, your device contacts the linked website directly (using Apple’s LinkPresentation framework).</p>
+<ul>
+  <li>Through this access, the shared link address (including any parameters it contains) and ordinary information needed for communication, such as your IP address, reach the linked website. The linked website handles this information in accordance with its own privacy policy.</li>
+  <li>The link address, title, and image are never sent to the developer’s servers.</li>
+  <li>If the title or image cannot be fetched, you can still sort the link. If you do not want this access to occur, please do not use the feature for sorting links from the share sheet.</li>
+  <li>On your device, the App stores the link address with tracking parameters (such as utm_ and igsh) removed, along with the title and a reduced-size image.</li>
+</ul>
+
+<h3>4-3. Checking for New Versions (Apple)</h3>
+<p>To check whether a newer version is available on the App Store, the App contacts Apple’s public iTunes Lookup API at launch, at most once a day. Only the App’s ID and a country code (Japan) are sent; none of your information or on-device data is sent. Ordinary information needed for communication, such as your IP address, reaches Apple and is handled in accordance with Apple’s privacy policy. If the request fails, nothing is shown.</p>
+
+<h3>4-4. Other Links</h3>
+<p>The App may open Apple’s shortcut sharing link (iCloud) so you can add a shortcut. Opening a saved link opens your browser or the relevant app. Information at the destination is handled in accordance with each provider’s policy.</p>
+
+<h2>5. Disclosure to Third Parties</h2>
+<p>Because the developer does not collect your information, the developer does not sell or provide it to third parties. However, the communication with RevenueCat and linked websites described in “4. Communication with External Services” does take place.</p>
+
+<h2>6. Children</h2>
+<p>The App can be used by people of any age, and it does not collect personal information from children.</p>
+
+<h2>7. Changes to This Policy</h2>
+<p>If this policy changes, the change will be announced on this page. By continuing to use the App after a change, you agree to the updated policy.</p>
+
+<h2>8. Contact</h2>
+<p>For questions about this policy, please see the <a href="support.html">Support page</a>.</p>
+
+<p class="meta">This English version is a translation of the Japanese original. If there is any discrepancy, the Japanese version prevails.</p>
+</main>
+</body>
+</html>
